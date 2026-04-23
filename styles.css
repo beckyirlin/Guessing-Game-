@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #8e61bc);
+  color: white;
+  text-align: center;
+  padding: 40px;
+} 
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.003);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.balance {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.puzzle {
+  font-size: 2em;
+  margin: 30px 0;
+}
+
+.bet-section {
+  margin: 15px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ff7eb3;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.actions {
+  margin-top: 15px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+

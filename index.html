@@ -1,0 +1,36 @@
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Rebus Puzzle Betting</title>
+  <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+
+<div class = "container">
+    <h1> Rebus Puzzle Betting Demo</h1>
+    <div class = "balance">Balance: $<span id = "balance">1000.00</span></div>
+
+    <div class = "puzzle" id = "puzzle"></div>
+
+    <input type = "text" id = "answer" placeholder = "Your guess...">
+
+    <div class = "bet-section">
+        <label>Bet Amount ($): </label>
+        <input type = "number" id = "bet" value = "50" min = "1">
+    </div>
+
+    <button onclick="checkAnswer()">Submit</button>
+    <button onclick="nextPuzzle()">Next Puzzle</button>
+
+    <div class = "actions">
+        <button onclick = "deposit()">Deposit $100</button>
+        <button onclick = "withdraw()">Withdraw $100</button>
+    </div>
+    <div id="result" class="result"></div>
+
+    <p class = "disclaimer">Demo only. No real money is used.</p>
+</div>
+
+<script src = "script.js"></script>
+</body>
+</html>
