@@ -67,4 +67,4 @@ function withdraw() {
 }
 
 loadPuzzle();
-updateBalance();
+updateBalance(); 
