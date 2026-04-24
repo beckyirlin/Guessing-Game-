@@ -1,9 +1,8 @@
 const puzzles = [
-{question: "ROOD", answer: "Back door"}, 
+{question: "Pod Pod Pod", answer: "Tripod"}, 
 {question: "Mill1on", answer: "1 in a million"},
 {question: "ECNLAG", answer: "A backwards glance"},
-{question: "UP 8", answer: "Up before 8" }, 
-{question: "LU CKY", answer: "Lucky Break"}
+{question: "SSSSSSSSSS E", answer: "Tennessee"}
 ]; 
 
 let current = 0;
@@ -18,9 +17,6 @@ function loadPuzzle() {
   document.getElementById("answer").value = "";
   document.getElementById("result").innerText = "";
 }
-
-function checkAnswer() {
-  let bet = parseFloat(document.getElementById("bet").value);
 
 function checkAnswer() {
   let bet = parseFloat(document.getElementById("bet").value);
@@ -42,8 +38,8 @@ function checkAnswer() {
     document.getElementById("result").innerText = `Sorry you got it wrong! -$${bet}`;
   }
 
-  updateBalance();
-}
+   updateBalance();  
+}  
 
 function nextPuzzle() {
   current = (current + 1) % puzzles.length;
@@ -66,5 +62,7 @@ function withdraw() {
   }
 }
 
-loadPuzzle();
-updateBalance(); 
+document.addEventListener("DOMContentLoaded", function () {
+  loadPuzzle();
+  updateBalance();
+});
