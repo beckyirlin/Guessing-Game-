@@ -23,6 +23,7 @@ body {
 .puzzle {
   font-size: 2em;
   margin: 30px 0;
+  font-weight: bold; 
 }
 
 input {
