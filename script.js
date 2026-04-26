@@ -1,6 +1,6 @@
 const puzzles = [
-  {question: "Pod Pod Pod", answer: "Tripod"}, 
-  {question: "Mill1on", answer: "1 in a million"},
+  {question: "POD POD POD", answer: "Tripod"}, 
+  {question: "MIL1LION", answer: "1 in a million"},
   {question: "ECNLAG", answer: "A backwards glance"},
   {question: "SSSSSSSSSS E", answer: "Tennessee"}
 ]; 
