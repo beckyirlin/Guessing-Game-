@@ -6,7 +6,7 @@ const puzzles = [
 ]; 
 
 let current = 0;
-let balance = 1000; 
+let balance = 0; 
 
 function updateBalance() {
   document.getElementById("balance").innerText = balance.toFixed(2);
