@@ -5,8 +5,8 @@ const puzzles = [
   {question: "SSSSSSSSSS E", answer: "Tennessee"}
 ]; 
 
-let current = 0;
-let balance = 50; 
+let current = 50;
+let balance = 0; 
 
 function updateBalance() {
   document.getElementById("balance").innerText = balance.toFixed(2);
