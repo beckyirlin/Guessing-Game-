@@ -28,7 +28,7 @@ function checkAnswer() {
   const correct = puzzles[current].answer.toLowerCase();
 
   if (userAnswer === correct) {
-    let winnings = bet * 2;
+    let winnings = bet;
     balance += winnings;
     document.getElementById("result").innerText = `Correct! +$${winnings}`;
   } else {
